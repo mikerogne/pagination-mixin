@@ -1,0 +1,15 @@
+<nav>
+    <ul v-show="totalPages > 1" class="pagination">
+        <li :class="{ disabled: prevPage == 0 }">
+            <a @click.prevent="gotoPage(prevPage);" href="#prev" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span> </a>
+        </li>
+        <template v-for="page in pages">
+            <li :class="{ active: pagination.currentPage == page }"><a @click.prevent="gotoPage(page);" href="#{{ page }}">{{ page }}</a></li>
+        </template>
+        <li :class="{ disabled: nextPage > totalPages }">
+            <a @click.prevent="gotoPage(nextPage);" href="#next" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span> </a>
+        </li>
+    </ul>
+</nav>
