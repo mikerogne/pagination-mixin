@@ -1,5 +1,3 @@
-var paginationLinksTemplate = require('./pagination-template.html');
-
 module.exports = {
     data    : function () {
         return {
@@ -37,7 +35,7 @@ module.exports = {
     },
     components: {
         pagination: {
-            template: paginationLinksTemplate
+            template: require('./pagination-template.html')
         }
     }
 };
