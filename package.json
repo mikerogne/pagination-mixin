@@ -1,0 +1,25 @@
+{
+  "name": "vue-pagination-mixin",
+  "version": "0.1.0",
+  "description": "A simple VueJS pagination mixin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikerogne/pagination-mixin.git"
+  },
+  "keywords": [
+    "vuejs",
+    "pagination",
+    "vue",
+    "pagination"
+  ],
+  "author": "Mike Rogne <mikerogne@users.noreply.github.com> (https://github.com/mikerogne)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikerogne/pagination-mixin/issues"
+  },
+  "homepage": "https://github.com/mikerogne/pagination-mixin#readme"
+}
